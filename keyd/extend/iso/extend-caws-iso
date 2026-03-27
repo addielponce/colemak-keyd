@@ -1,0 +1,55 @@
+[extend]
+
+esc = capslock
+
+1 = f1
+2 = f2
+3 = f3
+4 = f4
+5 = f5
+6 = f6
+7 = f12
+8 = f7
+9 = f8
+0 = f9
+- = f10
+= = f11
+
+q = esc
+w = scrollup
+e = back
+r = forward
+# t = mouseup?
+y = esc
+u = pageup
+i = home
+o = up
+p = end
+[ = delete
+] = favorites
+
+a = layer(alt)
+s = scrolldown
+d = layer(shift)
+f = layer(control)
+# g = mousedown?
+h = insert
+j = pagedown
+k = left
+l = down
+; = right
+' = backspace
+\ = menu
+
+102nd = C-z
+z = C-x
+x = C-c
+c = leftmouse
+v = C-v
+b = scrollleft
+n = scrollright
+m = middlemouse
+, = rightmouse
+# . = mouseleft?
+# / = mouseright?
+space = enter
