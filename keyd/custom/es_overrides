@@ -1,0 +1,25 @@
+# Personal overrides
+# IMPORTANT: Use "US, intl., AltGr Unicode combining" layout to get accented characters using AltGr
+
+[main]
+# ñ
+b = G-n
+
+[altgr+shift]
+# ¿
+n = G-/
+# ¡
+1 = G-1
+
+# Extend customizations
+
+[extend]
+
+# ¿
+, = S-1
+# ?
+. = G-/
+# !
+/ = ?
+# ¡
+rightshift = G-1
