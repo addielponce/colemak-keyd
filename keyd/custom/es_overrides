@@ -1,6 +1,8 @@
 # Personal overrides
 # IMPORTANT: Use "US, intl., AltGr Unicode combining" layout to get accented characters using AltGr
 
+# TODO: add diaeresis modifier
+
 [main]
 # ñ
 b = G-n
