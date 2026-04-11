@@ -1,8 +1,6 @@
 # Personal overrides
 # IMPORTANT: Use "US, intl., AltGr Unicode combining" layout to get accented characters using AltGr
 
-# TODO: add diaeresis modifier
-
 [main]
 # ñ
 b = G-n
@@ -25,3 +23,15 @@ n = G-/
 / = ?
 # ¡
 rightshift = G-1
+
+[altgr]
+
+; = oneshot(diaeresis)
+
+[diaeresis]
+
+a = G-Q
+e = G-F
+i = G-J
+o = G-P
+u = G-Y
