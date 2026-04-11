@@ -7,6 +7,8 @@ SOURCE_DIR="$REPO_DIR/keyd"
 TARGET_DIR="/etc/keyd"
 BACKUP_DIR="$HOME/keyd-backup-$(date +%Y%m%d-%H%M%S)"
 
+sudo -v
+
 for cmd in git keyd; do
 	if ! command -v "$cmd" &>/dev/null; then
 		echo "$cmd is not installed. Install it and try again."
