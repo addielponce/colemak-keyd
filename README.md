@@ -40,5 +40,4 @@ curl -fsSL https://raw.githubusercontent.com/addielponce/colemak-keyd/refs/heads
 
 ### Notes
 
-- This configuration is activated for all users. If you share your device with others, this may cause problems. To quickly disable keyd, press `backspace + escape + enter`. Support for per-user configuration may be added in the future.
 - Unfortunately, there is a [bug](https://github.com/rvaiya/keyd/issues/273) that prevents unicode from working in certain cases, which is why a specific layout is required. Hopefully it will be resolved in the future.
