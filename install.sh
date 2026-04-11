@@ -19,7 +19,7 @@ for cmd in git keyd; do
 	fi
 done
 
-rm -rf "$REPO_DIR"
+sudo rm -rf "$REPO_DIR"
 git clone -q "$REPO_URL" "$REPO_DIR"
 
 # Back up /etc/keyd if it already has content
