@@ -26,12 +26,12 @@ rightshift = G-1
 
 [altgr]
 
-; = oneshot(diaeresis)
+\ = oneshot(diaeresis)
 
 [diaeresis]
 
-a = G-Q
-e = G-F
-i = G-J
-o = G-P
-u = G-Y
+a = G-q
+l = G-f
+; = G-j
+' = G-p
+o = G-y
