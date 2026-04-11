@@ -33,4 +33,4 @@ fi
 # Copy config to /etc/keyd
 echo "Copying keyd configs to $TARGET_DIR"
 sudo mkdir -p "$TARGET_DIR"
-sudo cp -aZ "$SOURCE_DIR/." "$TARGET_DIR/"
+sudo cp -aZ "$SOURCE_DIR/." "$TARGET_DIR/" && echo "Done! ✨❤️"
