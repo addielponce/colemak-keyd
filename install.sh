@@ -36,3 +36,5 @@ fi
 echo "Copying keyd configs to $TARGET_DIR"
 sudo mkdir -p "$TARGET_DIR"
 sudo cp -aZ "$SOURCE_DIR/." "$TARGET_DIR/" && echo "Done! ✨❤️"
+
+sudo keyd reload
