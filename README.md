@@ -41,3 +41,8 @@ curl -fsSL https://raw.githubusercontent.com/addielponce/colemak-keyd/refs/heads
 ### Notes
 
 - Unfortunately, there is a [bug](https://github.com/rvaiya/keyd/issues/273) that prevents unicode from working in certain cases, which is why a specific layout is required. Hopefully it will be resolved in the future.
+- If you share a device with others, they may want to always use QWERTY. If that is the case, you have to make keyd start only after login and disable/enable it for specific users.
+- Feel free to open an issue if you need help with anything. It is always good news to hear about people getting into Colemak.
+- You may as well not use `keyd` altogether and use `English (Colemak-DH Wide ISO)` (or ANSI), but:
+  + Extend features will not be available
+  + Some symbols will be at another position.
