@@ -19,7 +19,6 @@ for cmd in git keyd; do
   fi
 done
 
-sudo rm -rf "$REPO_DIR"
 git clone -q "$REPO_URL" "$REPO_DIR"
 
 # Back up /etc/keyd if it already has content
@@ -39,3 +38,5 @@ sudo cp -aZ "$SOURCE_DIR/." "$TARGET_DIR/" && echo "Done! ✨❤️"
 
 sudo systemctl start keyd
 sudo keyd reload
+
+rm -rf "$REPO_DIR"
