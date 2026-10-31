@@ -36,7 +36,7 @@ echo "Copying keyd configs to $TARGET_DIR"
 sudo mkdir -p "$TARGET_DIR"
 sudo cp -aZ "$SOURCE_DIR/." "$TARGET_DIR/" && echo "Done! ✨❤️"
 
-sudo systemctl start keyd
+sudo systemctl enable --now keyd
 sudo keyd reload
 
 rm -rf "$REPO_DIR"

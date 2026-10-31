@@ -4,9 +4,9 @@ This keyd configuration is based on one of Dreymar's Big Bag layouts: [Cmk-eD-Es
 
 It lacks most features, but it is enough for everyday use. The following features are available:
 
-- Extend layers (1 and 2)
-- Basic accented characters with AltGr: á é í ó ú
-- Diaeresis (`AltGr + ; + [vowel]`): ä ë ï ö ü
+- Extend layers (1 and 2) with <kbd>caps lock</kbd>
+- Basic accented characters with <kbd>AltGr</kbd>: `á é í ó ú`
+- Diaeresis (<kbd>AltGr</kbd> + <kbd>;</kbd> + `vowel`): `ä ë ï ö ü`
 - Toggleable oneshot mods for gaming
 
 ### Installation
@@ -23,7 +23,7 @@ sudo dnf install git
 sudo pacman -Syu git
 ```
 
-3. Install `keyd`:
+3. Install `keyd` through your package manager or from source:
 
 ```sh
 git clone https://github.com/rvaiya/keyd
